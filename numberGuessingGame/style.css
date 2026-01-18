@@ -1,0 +1,55 @@
+#content{
+    text-align: center;
+    font-family: roboto;
+    background: rgba(255, 255, 255, 0.1); 
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    padding: 50px 40px 100px;
+    max-width: 800px;
+}
+
+body {
+    background: linear-gradient(45deg, #c10202, #000000);
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 100px;
+}
+
+#Guess{
+    background: rgba(255, 255, 255, 0.1); 
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    font-size: 30px;
+    outline: none;
+}
+
+#GuessButton{
+    size: 2cm;
+    font-size: 20px;
+    background: rgba(255, 255, 255, 0.1); 
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    padding : 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+#Message{
+    font-size:30px;
+}
+
+#disp{
+    font-size: 20px;
+}
